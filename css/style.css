@@ -1,0 +1,334 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+/* =================================================================
+                        focused-part start
+=================================================================== */
+#focused {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+#focused .text {
+  margin-top: 50px;
+  width: 750px;
+  margin-left: 20px;
+}
+#focused .text .title {
+  border-left: 5px solid;
+  border-image: linear-gradient(tomato, orange);
+  border-image-slice: 1;
+  padding-left: 10px;
+}
+#focused .text h1 {
+  font-size: 80px;
+  color: #000;
+  font-family: "Source Serif 4", sans-serif;
+}
+#focused .text h2 {
+  font-size: 60px;
+  color: #a814ec;
+  margin-bottom: 30px;
+  font-family: "Source Serif 4", sans-serif;
+}
+#focused .text p {
+  font-size: 20px;
+  color: #160468;
+  font-family: "Source Serif 4", sans-serif;
+  text-align: justify;
+  margin-bottom: 30px;
+  font-weight: 400;
+  text-align: justify;
+  text-transform: capitalize;
+}
+#focused .text a {
+  padding: 15px 40px;
+  background-image: linear-gradient(tomato, orange);
+  font-size: 30px;
+  color: #570202;
+  font-family: "Source Serif 4", sans-serif;
+  font-weight: 700;
+  border-radius: 10px;
+}
+#focused .text h4 {
+  font-size: 15px;
+  color: #252525;
+  font-family: "Source Serif 4", sans-serif;
+  font-weight: 400;
+  margin-top: 50px;
+}
+#focused .image {
+  width: 750px;
+}
+#focused .image img {
+  width: 75%;
+  border-radius: 50%;
+}
+/* =================================================================
+                        focused-part end
+=================================================================== */
+/* =================================================================
+                        mission-part start
+=================================================================== */
+#mission-part {
+     margin-bottom: 50px;
+}
+#mission-part .main {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 60px;
+  padding: 0 50px;
+}
+#mission-part .title {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+#mission-part .title h2 {
+  text-transform: capitalize;
+  font-size: 60px;
+  color: rgb(3, 3, 128);
+}
+#mission-part .title span {
+  color: tomato;
+}
+#mission-part .main .div1 {
+  width: 400px;
+  background-color: #68fd74;
+  padding: 30px;
+  border-radius: 30px;
+}
+#mission-part .main .div1 h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+#mission-part .main .div1 p {
+  font-size: 20px;
+  color: #160468;
+  font-family: "Source Serif 4", sans-serif;
+  margin-bottom: 20px;
+}
+#mission-part .main .div1 img {
+  width: 45%;
+  align-items: flex-start;
+}
+#mission-part .main .div2 {
+  background-color: rgb(119, 82, 252);
+}
+#mission-part .main .div3 {
+  background-color: rgb(255, 216, 90);
+}
+/* =================================================================
+                        mission-part end
+=================================================================== */
+/* =================================================================
+                        develop-part start
+=================================================================== */
+#develop-part {
+    background-image: url(../images/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 10px;
+}
+#develop-part .image {
+  width: 25%;
+  border-radius: 20%;
+}
+#develop-part .image img {
+  border-radius: 20px;
+}
+#develop-part .text {
+  width: 45%;
+  margin-top: 35px;
+}
+#develop-part .text h3 {
+  font-family: "Poppins", sans-serif;
+  color: #a814ec;
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+#develop-part .text h4 {
+  font-family: "Poppins", sans-serif;
+  color: tomato;
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+#develop-part .text p {
+  font-family: "Poppins", sans-serif;
+  color: #160468;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+#develop-part .text a {
+  padding: 15px 40px;
+  background-image: linear-gradient(tomato, orange);
+  font-size: 30px;
+  color: #570202;
+  font-family: "Source Serif 4", sans-serif;
+  font-weight: 700;
+  border-radius: 10px;
+}
+/* =================================================================
+                        develop-part end
+=================================================================== */
+/* =================================================================
+                        global-part start
+=================================================================== */
+#global-part {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px 0;
+}
+#global-part .image {
+   background-image: url(../images/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 300px;  
+    background-position: right;
+  width: 38%;
+  border-radius: 20%;
+}
+#global-part .image img {
+  border-radius: 20px;
+  width: 80%;
+}
+#global-part .text {
+  width: 38%;
+  margin-top: 35px;
+}
+#global-part .text h3 {
+  font-family: "Poppins", sans-serif;
+  color: #a814ec;
+  font-size: 40px;
+  margin-bottom: 5px;
+  margin-left: 40px;
+}
+#global-part .text h4 {
+  font-family: "Poppins", sans-serif;
+  color: tomato;
+  font-size: 40px;
+  margin-bottom: 5px;
+  margin-left: 40px;
+}
+#global-part .text p {
+  font-family: "Poppins", sans-serif;
+  color: #160468;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  text-align: justify;
+}
+#global-part .text a {
+  padding: 15px 40px;
+  background-image: linear-gradient(tomato, orange);
+  font-size: 30px;
+  color: #570202;
+  font-family: "Source Serif 4", sans-serif;
+  font-weight: 700;
+  border-radius: 10px;
+  margin-left: 40px;
+}
+/* =================================================================
+                        global-part end
+=================================================================== */
+/* =========================================================================================
+                                        message part start
+============================================================================================ */
+#message-part{
+    width: 100%;
+    margin-left: 150px;
+}
+#message-part .title {
+  margin-top: 100px;
+}
+#message-part .title h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  color: tomato;
+}
+#message-part .main {
+  justify-content: space-around;
+}
+#message-part .main input {
+  width: 30%;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+#message-part .main input::placeholder {
+  font-family: "Open sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-style: italic;
+}
+#message-part textarea {
+  width: 62%;
+  height: 300px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  resize: none;
+  margin: 30px 0;
+  padding: 10px;
+}
+#message-part textarea::placeholder {
+  font-family: "Open sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-style: italic;
+}
+#message-part .button {
+  margin-left: 475px;
+  margin-bottom: 100px;
+}
+#message-part .button button {
+  padding: 10px 40px;
+  background-image: linear-gradient(tomato, orange);
+  font-size: 20px;
+  color: #570202;
+  font-family: "Source Serif 4", sans-serif;
+  font-weight: 700;
+  border-radius: 10px;
+  margin-left: 40px;
+  border: none;
+}
+/* =========================================================================================
+                                        message part end
+============================================================================================ */
+/* =================================================================
+                        footer-part start
+=================================================================== */
+footer {
+  text-align: center;
+  background-color: #000;
+  padding: 50px 0px;
+}
+footer h2 {
+  font-size: 50px;
+  color: white;
+  font-family: "Lobster", cursive;
+}
+footer span {
+  font-size: 50px;
+  color: #5cfc1d;
+  font-family: "Lobster", cursive;
+}
+footer p {
+  font-size: 20px;
+  color: #b6d314;
+  font-family: "Lobster", cursive;
+}
+
+/* =================================================================
+                        footer-part end
+=================================================================== */
